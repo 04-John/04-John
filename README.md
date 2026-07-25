@@ -1,4 +1,4 @@
-# 📊 John Fashola | Senior Data Analyst & Machine Learning Engineer
+# John Fashola | Senior Data Analyst & Machine Learning Engineer
 > **Bridging the gap between statistical research and production-grade enterprise data products.**
 
 ---
