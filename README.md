@@ -1,10 +1,6 @@
 # 📊 John Fashola | Senior Data Analyst & Machine Learning Engineer
 > **Bridging the gap between statistical research and production-grade enterprise data products.**
 
-[![GitHub Analytics](https://shields.io)](https://github.com)
-[![Engine Status](https://shields.io)](https://github.com)
-[![Stack](https://shields.io)](https://github.com)
-
 ---
 
 ### Core Engineering Telemetry
