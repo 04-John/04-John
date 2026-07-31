@@ -22,6 +22,7 @@ These are live, deployed systems currently running in production or publicly acc
 | FRIDAY: Liquidity Intelligence Platform | Fintech ML | ![Deployed](https://img.shields.io/badge/-Deployed-00B896?style=flat-square) | [Live Demo](https://friday-beige-beta.vercel.app) |
 | Solana AI Agent Wallet | DeFi / Autonomous Agent | ![Deployed](https://img.shields.io/badge/-Deployed-00B896?style=flat-square) | [Live Demo](https://solana-ai-agent-wallet.vercel.app/) |
 | ERNIE: Retention Intelligence Engine | Product Analytics | ![Deployed](https://img.shields.io/badge/-Deployed-00B896?style=flat-square) | [GitHub](https://github.com/John-04/ERNIE) |
+| Mobile Ad Fraud Detection | Fraud Detection / Anomaly Detection | ![In Development](https://img.shields.io/badge/-In%20Development-F59E0B?style=flat-square) | [GitHub](https://github.com/04-John/mobile-adfraud-clustering) |
 | Crime Analytics Platform | Public Safety ML | ![In Development](https://img.shields.io/badge/-In%20Development-F59E0B?style=flat-square) | Coming soon |
 
 ---
@@ -163,6 +164,28 @@ Stack: Python · scikit-learn · SQL · Streamlit · Plotly · pandas
 **Blockchain**
 
 ![Solana](https://img.shields.io/badge/Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
+
+---
+
+## Mobile Ad Fraud Detection via Clustering
+
+**ML Engineer · Anomaly Detection · In development**
+
+Unsupervised anomaly detection system for mobile ad click fraud using the TalkingData dataset (184 million click records). Identifies device farms and bot networks by clustering behavioural patterns across IP, device, OS, app, and channel dimensions.
+
+```
+Stack: Python · HDBSCAN · DBSCAN · scikit-learn · SHAP · FastAPI · pandas · NumPy · pytest
+```
+
+| Component | Detail |
+|---|---|
+| Feature engineering | Rolling-window behavioural features per IP, device, and OS |
+| Clustering | HDBSCAN (primary) · DBSCAN (noise isolation) · K-Means (baseline) |
+| Cross-population comparison | Chi-square tests and KL divergence for distribution shift |
+| Explainability | SHAP values per flagged cluster |
+| Serving | FastAPI /score endpoint for near real-time scoring |
+
+[![GitHub](https://img.shields.io/badge/GitHub-04--John%2Fmobile--adfraud--clustering-181717?style=flat-square&logo=github)](https://github.com/04-John/mobile-adfraud-clustering)
 
 ---
 
